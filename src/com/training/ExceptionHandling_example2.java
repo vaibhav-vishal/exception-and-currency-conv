@@ -1,5 +1,6 @@
 package com.training;
 
+@SuppressWarnings("serial")
 public class ExceptionHandling_example2 extends Exception {
 public static void main(String[] args) {
 	try{

@@ -1,7 +1,11 @@
 package com.training.myexceptions;
 //inheritance
-//checked exception -because extending excepyion
+//checked exception -because extending exception
 public class RangeCheckException extends Exception {
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 private long handPhone;
 //mandatory dependency
 public RangeCheckException(long handphone) {

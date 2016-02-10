@@ -3,6 +3,7 @@ package com.training;
 
 public class ExceptionHandling_example {
 
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		String name =null;		
 		int len=0;
